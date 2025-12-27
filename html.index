@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mundo dos Gatos 🐾</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #fafafa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ffcc80, #ffe0b2);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background: #fff;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ff9800;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #ff9800;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    ul li {
+      background: #fff;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #ffcc80;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🐱 Mundo dos Gatos</h1>
+    <p>Tudo sobre gatos: raças, cuidados e curiosidades</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#racas">Raças</a>
+    <a href="#cuidados">Cuidados</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre os Gatos</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Os gatos são animais independentes, carinhosos e muito inteligentes.
+      Eles acompanham os humanos há milhares de anos e são ótimos companheiros.
+    </p>
+  </section>
+
+  <section id="racas">
+    <h2>Raças Populares</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://placekitten.com/300/200" alt="Gato Persa">
+        <h3>Persa</h3>
+        <p>Calmo, peludo e muito carinhoso.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://placekitten.com/301/200" alt="Gato Siamês">
+        <h3>Siamês</h3>
+        <p>Comunicativo e muito apegado ao dono.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://placekitten.com/302/200" alt="Gato Maine Coon">
+        <h3>Maine Coon</h3>
+        <p>Grande, sociável e brincalhão.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="cuidados">
+    <h2>Cuidados Básicos</h2>
+    <ul>
+      <li>🍽️ Alimentação balanceada</li>
+      <li>💧 Água fresca sempre disponível</li>
+      <li>🧼 Higiene e caixa de areia limpa</li>
+      <li>🏥 Visitas regulares ao veterinário</li>
+      <li>🎾 Brinquedos e carinho diário</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p style="text-align:center;">
+      📧 Email: contato@mundodosgatos.com <br>
+      📸 Instagram: @mundodosgatos
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 - Mundo dos Gatos 🐾 | Feito com ❤️</p>
+  </footer>
+
+</body>
+</html>
